@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Online Voting System</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="assets/css/styles.css" />
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+		<style>
+			body {
+				background: linear-gradient(to right, #fafafa, #eaeaea);
+			}
+
+			.hero-fade-in {
+				background: linear-gradient(to right, #fdecea, #f8caca);
+				color: #8b0000;
+				padding: 50px;
+				border-radius: 10px;
+				box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+				transition: 0.5s ease-in-out;
+			}
+
+			.hero-fade-in:hover {
+				box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+			}
+		</style>
+	</head>
+	<body>
+		<nav
+			class="navbar navbar-expand-lg"
+			style="background: linear-gradient(to right, #8b0000, #f8caca)"
+		>
+			<div class="container">
+				<a class="navbar-brand text-white fw-bold" href="index.html"
+					>Online Voting</a
+				>
+				<div class="collapse navbar-collapse">
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item">
+							<a class="nav-link text-white" href="voters.html">Voters</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white" href="candidates.html"
+								>Candidates</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white" href="voting.html">Voting</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white" href="results.html">Results</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="container mt-5 text-center">
+			<div class="hero-fade-in">
+				<h1>Welcome to the Online Voting System</h1>
+				<p class="lead">
+					Make your voice heard in a secure and transparent way.
+				</p>
+				<a href="register.html" class="btn btn-danger btn-lg me-2">Register</a>
+				<a href="login.html" class="btn btn-outline-danger btn-lg">Login</a>
+			</div>
+		</div>
+
+		<script src="assets/js/main.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>
